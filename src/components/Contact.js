@@ -1,6 +1,20 @@
-import React from 'react'
+import React from 'react';
+import emailjs from 'emailjs-com';
 
 export const Contact = () => {
+
+    function sendEmail ( e ) {
+        e.preventDefault();
+        emailjs.sendForm( 'gmail', 'template_xfj588w', e.target, 'user_eM2APZOJW7tBh8tF0JvYZ' )
+            .then(( result ) => {
+                console.log(result.text);
+            }, ( error ) => {
+                console.log(error.text);
+            });
+            e.target.reset();
+
+    }
+
     return (
         <>
             <section id="fh5co-contact" data-section="contact">
@@ -29,28 +43,28 @@ export const Contact = () => {
                             </ul>
                         </div>
 
-                        <div className="col-md-6 to-animate">
+                        <form className="col-md-6 to-animate" onSubmit={ sendEmail }>
                             <h3>Contact Form</h3>
                             <div className="form-group ">
                                 <label className="sr-only">Name</label>
-                                <input id="name" className="form-control" placeholder="Name" type="text" />
+                                <input name="name" id="name" className="form-control" placeholder="Name" type="text" />
                             </div>
                             <div className="form-group ">
                                 <label className="sr-only">Email</label>
-                                <input id="email" className="form-control" placeholder="Email" type="email" />
+                                <input name="email" id="email" className="form-control" placeholder="Email" type="email" />
                             </div>
                             <div className="form-group ">
                                 <label className="sr-only">Phone</label>
-                                <input id="phone" className="form-control" placeholder="Phone" type="text" />
+                                <input name="phone" id="phone" className="form-control" placeholder="Phone" type="text" />
                             </div>
                             <div className="form-group ">
                                 <label className="sr-only">Message</label>
-                                <textarea name="" id="message" cols="30" rows="5" className="form-control" placeholder="Message"></textarea>
+                                <textarea name="message" id="message" cols="30" rows="5" className="form-control" placeholder="Message"></textarea>
                             </div>
                             <div className="form-group">
                                 <input className="btn btn-primary btn-lg" value="Send Message" type="submit" />
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
                 <div id="map" className="to-animate"></div>
