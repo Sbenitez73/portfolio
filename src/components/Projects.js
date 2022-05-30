@@ -11,7 +11,7 @@ export const Projects = () => {
                             <h2 className="to-animate">Projects</h2>
                             <div className="row">
                                 <div className="col-md-8 col-md-offset-2 subtext to-animate">
-                                    <h3>I have carried out these projects mostly with companies, however some projects carried out are for practice or simply personal.</h3>
+                                    <h3>I carried out these projects mostly with companies, however some projects carried out are for practice or simply personal.</h3>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ export const Projects = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-12 text-center to-animate">
-                            <p>* I have worked on more projects but I do not mention them due to privacy policies.</p>
+                            <p>* I worked on more projects but I do not mention them due to privacy policies.</p>
                         </div>
                     </div>
                 </div>

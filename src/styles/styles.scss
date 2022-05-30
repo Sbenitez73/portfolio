@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 :root {
     --background: white;
     --text-primary: #4A4A4A;
@@ -40,3 +45,9 @@
     margin-top: 14px;
     padding-top: 3px !important;
 }
+
+@media screen and (max-width: 768px) {
+    .titles-sections {
+        margin-left: 20px;
+    }
+}    

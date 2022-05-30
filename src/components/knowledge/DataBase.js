@@ -13,7 +13,7 @@ export const DataBase = () => {
                     <div className="fh5co-text">
                         <i className="fh5co-intro-icon devicon-microsoftsqlserver-plain"></i>
                         <h2>SQL Server</h2>
-                        <p>I have used SQL server in a highly complex project, I have more than two years of experience working with sql server.</p>
+                        <p>I used SQL server in a highly complex project, I have more than two years of experience working with sql server.</p>
                     </div>
                 </div>
                 <div className="fh5co-block to-animate">
@@ -22,7 +22,7 @@ export const DataBase = () => {
                     <div className="fh5co-text">
                         <i className="fh5co-intro-icon fab devicon-mysql-plain"></i>
                         <h2>MySQL</h2>
-                        <p>I have built around 3 applications in MySQL, I have extensive experience in relational databases.</p>
+                        <p>I built around 3 applications in MySQL, I have extensive experience in relational databases.</p>
                     </div>
                 </div>
                 <div className="fh5co-block to-animate">
@@ -31,7 +31,7 @@ export const DataBase = () => {
                     <div className="fh5co-text">
                         <i className="fh5co-intro-icon devicon-mongodb-plain"></i>
                         <h2>Mongo</h2>
-                        <p>I have built an application with Mongo (Stack MERN), I have the basic knowledge in mongoDB.</p>
+                        <p>I built an application with Mongo (Stack MERN), I have the basic knowledge in mongoDB.</p>
                     </div>
                 </div>
             </div>

@@ -34,7 +34,7 @@ export const OtherLanguages = () => {
                             <div className="fh5co-text">
                                 <i className="fh5co-intro-icon devicon-html5-plain"></i>
                                 <h2>HTML 5</h2>
-                                <p>I have worked with this language for more than 4 years.</p>
+                                <p>I worked with this language for more than 4 years.</p>
                             </div>
                         </div>
                         <div className="fh5co-block animate__fadeInRight">
@@ -43,7 +43,7 @@ export const OtherLanguages = () => {
                             <div className="fh5co-text">
                                 <i className="fh5co-intro-icon devicon-css3-plain"></i>
                                 <h2>CSS 3</h2>
-                                <p>I have worked with CSS3 for more than 4 years, my knowledge in css is advanced.</p>
+                                <p>I worked with CSS3 for more than 4 years, my knowledge in css is advanced.</p>
                             </div>
                         </div>
                         <div className="fh5co-block animate__fadeInRight">
@@ -52,7 +52,7 @@ export const OtherLanguages = () => {
                             <div className="fh5co-text">
                                 <i className="fh5co-intro-icon devicon-sass-original"></i>
                                 <h2>SASS</h2>
-                                <p>I have worked with SASS and SASS partials for a little over two years.</p>
+                                <p>I worked with SASS and SASS partials for a little over two years.</p>
                             </div>
                         </div>
 
@@ -62,7 +62,7 @@ export const OtherLanguages = () => {
                             <div className="fh5co-text">
                                 <i className="fh5co-intro-icon devicon-linux-plain"></i>
                                 <h2>Linux</h2>
-                                <p>I have experience configuring linux servers. Based on CentOS, I can configure FTP, Samba, and SQL Data Bases.</p>
+                                <p>I experience configuring linux servers. Based on CentOS, I can configure FTP, Samba, and SQL Data Bases.</p>
                             </div>
                         </div>
                         <div className="fh5co-block animate__fadeInRight">
@@ -71,7 +71,7 @@ export const OtherLanguages = () => {
                             <div className="fh5co-text">
                                 <i className="fh5co-intro-icon devicon-git-plain"></i>
                                 <h2>Git</h2>
-                                <p>I have integrated git in more than 7 projects, I have been using git for more than 3 years, in an advanced way.</p>
+                                <p>I integrated git in more than 7 projects, I have been using git for more than 3 years, in an advanced way.</p>
                             </div>
                         </div>
                         <div className="fh5co-block animate__fadeInRight">
@@ -90,7 +90,7 @@ export const OtherLanguages = () => {
                             <div className="fh5co-text">
                                 <i className="fh5co-intro-icon devicon-npm-original-wordmark"></i>
                                 <h2>npm</h2>
-                                <p>React and angular use this package management system to build projects, implement libraries, etc. so I have experience using npm.</p>
+                                <p>React and angular use this package management system to build projects, implement libraries, etc. I have experience using npm and building my own open source packages</p>
                             </div>
                         </div>
                         <div className="fh5co-block animate__fadeInRight">
