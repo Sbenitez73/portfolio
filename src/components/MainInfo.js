@@ -9,7 +9,7 @@ export const MainInfo = () => {
                         <div className="text-inner">
                             <div className="row">
                                 <div className="col-md-8 col-md-offset-2">
-                                    <img style={{ left: 'auto', right: 'auto' }}  className='img-logo' src='./static/images/icondev.png' />
+                                    <img style={{ left: 'auto', right: 'auto' }}  className='img-logo' src='./static/images/icondev.png'  alt=""/>
                                     <h1 className="to-animate mb-10">Hello Everyone!</h1>
                                     <h1 className="to-animate"> I'm Santiago Benítez</h1> 
                                     <h4 className="to-animate">Full Stack Developer</h4>
