@@ -53,6 +53,26 @@ export const Business = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-md-6">
+                            <div className="box-testimony">
+                                <blockquote className="to-animate-2">
+                                    <p>&ldquo;Soluciones Globales is a company that provides computer solutions at the public level within the country, such as sewerage and developments so that the officials of said solutions can manage their work more easily.&rdquo;</p>
+                                </blockquote>
+                                <div className="author to-animate">
+                                    <figure><img src="./static/images/soluciones.png" alt="ideas"></img></figure>
+                                    <p>
+                                        Soluciones globales
+                                        <span className="subtext">
+                                            <a href="https://www.sgsas.co/">
+                                                WebSite
+                                            </a> 
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 	        </section>

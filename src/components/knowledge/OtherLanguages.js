@@ -9,15 +9,16 @@ export const OtherLanguages = () => {
             <div className="row row-bottom-padded-sm">
                 <div className="row">
                     <h1 
-                        className="to-animate mb-10" 
+                        className="to-animate mb-10 titles-sections" 
                         style={{ color: '#52d3aa', cursor: 'pointer' }} 
                         onClick={ () =>
                             setVisibility(!visible)}
                     >
                         Other Languages / Tools
                         <i 
-                        className={!visible ? 
-                            "fas fa-chevron-up" : "fas fa-chevron-down" } 
+                            style={{ marginLeft: '10px' }}
+                            className={!visible ? 
+                                "fas fa-chevron-up" : "fas fa-chevron-down" } 
                             onClick={ () =>
                             setVisibility(!visible)} 
                         >

@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
   color: #777777;
   color: #7f7f7f;
-  background: #fff;
+  background: var(--background);
   height: 100%;
   position: relative;
 }
@@ -39,7 +39,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: var(--text-primary);
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin-top: 0;
-    background: #fff;
+    background-color: var(--background);
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #52d3aa !important;
   }
   #fh5co-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: var(--text-primary) !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #fh5co-header #navbar li a:hover {
-  color: #fff;
+  color: var(--background);
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
-  background: #fff;
+  background: var(--background);
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #52d3aa;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: var( --text-secondary );
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: rotate(-1.7deg);
   -o-transform: rotate(-1.7deg);
   -moz-transform: rotate(-1.7deg);
-  background-color: #fff;
+  background-color: var(--background);
   content: "";
   z-index: 3;
   display: inline-block;
@@ -492,12 +492,12 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 300px;
   vertical-align: middle;
   padding: 40px;
-  background: #fff;
-  -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  background: var(--background);
+  -webkit-box-shadow: 7px 14px 42px 3px var( --shadow );
+  -moz-box-shadow: 7px 14px 42px 3px var( --shadow );
+  -ms-box-shadow: 7px 14px 42px 3px var( --shadow );
+  -o-box-shadow: 7px 14px 42px 3px var( --shadow );
+  box-shadow: 7px 14px 42px 3px var( --shadow );
   z-index: 7;
   flex-grow: 1;
   background-size: cover;
@@ -520,7 +520,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 #fh5co-intro .fh5co-block > .overlay {
-  background: #fff;
+  background-color: var(--background);
   opacity: 1;
   z-index: 9;
   position: absolute;
@@ -551,13 +551,13 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9;
 }
 #fh5co-intro .fh5co-block:hover > .fh5co-text, #fh5co-intro .fh5co-block:focus > .fh5co-text {
-  color: #fff;
+  color: var(--text-primary);
 }
 #fh5co-intro .fh5co-block:hover > .fh5co-text .fh5co-intro-icon, #fh5co-intro .fh5co-block:focus > .fh5co-text .fh5co-intro-icon {
-  color: #fff;
+  color: var(--text-primary);
 }
 #fh5co-intro .fh5co-block:hover h2, #fh5co-intro .fh5co-block:focus h2 {
-  color: #fff;
+  color: var(--text-primary);
 }
 #fh5co-intro .fh5co-block:hover .btn, #fh5co-intro .fh5co-block:focus .btn {
   border: 2px solid #fff !important;
@@ -657,7 +657,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: rotate(-1.7deg);
   -o-transform: rotate(-1.7deg);
   -moz-transform: rotate(-1.7deg);
-  background-color: #fff;
+  background-color: var(--background);
   content: "";
   z-index: 3;
   display: inline-block;
@@ -729,7 +729,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: rotate(-1.7deg);
   -o-transform: rotate(-1.7deg);
   -moz-transform: rotate(-1.7deg);
-  background-color: #fff;
+  background-color: var(--background);
   content: "";
   z-index: 3;
   display: inline-block;
@@ -806,7 +806,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   border-left: none;
   padding: 30px;
-  background: #fff;
+  background-color: var(--background);
   background: #52d3aa;
   font-size: 20px;
   font-weight: 300;
@@ -822,7 +822,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 100%;
   left: 40px;
   border-top: 10px solid black;
-  border-top-color: #fff;
+  background-color: var(--background);
   border-top-color: #52d3aa;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
@@ -833,7 +833,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-testimonials .box-testimony .author {
   line-height: 20px;
-  color: black;
+  color: var(--text-primary);
   font-size: 16px;
   margin-left: 20px;
   font-weight: 400;
@@ -894,7 +894,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: rotate(-1.7deg);
   -o-transform: rotate(-1.7deg);
   -moz-transform: rotate(-1.7deg);
-  background-color: #fff;
+  background-color: var(--background);
   content: "";
   z-index: 3;
   display: inline-block;
@@ -911,7 +911,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: -35px;
 }
 #fh5co-work .section-heading h2 {
-  color: #fff;
+  color: var(--text-primary);
 }
 #fh5co-work .section-heading h2:after {
   background: rgba(255, 255, 255, 0.3);
@@ -924,7 +924,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   position: relative;
   top: 0;
-  background: #fff;
+  background-color: var(--background);
   overflow: hidden;
   z-index: 9;
   margin-bottom: 30px;
@@ -976,7 +976,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-person {
-  border: 2px solid #f2f2f2;
+  border: 2px solid var(--border);
   padding: 80px 30px 30px 30px;
   float: left;
   width: 100%;
@@ -1016,7 +1016,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-control {
   box-shadow: none;
   background: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--border);
   height: 54px;
   font-size: 18px;
   font-weight: 400;
@@ -1137,7 +1137,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 25px;
   height: 3px;
   color: #52d3aa;
@@ -1213,6 +1213,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
+    margin-top: 22px;
   }
 }
 
@@ -1226,7 +1227,7 @@ h1, h2, h3, h4, h5, h6 {
   top: -20px;
   left: 50%;
   margin-left: -40px;
-  background: #fff;
+  background-color: var(--background);
   z-index: 8;
   width: 80px;
   height: 80px;

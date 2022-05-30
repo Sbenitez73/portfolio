@@ -5,7 +5,7 @@ export const DataBase = () => {
         <>
             <div className="row row-bottom-padded-sm">
                 <div className="row">
-                    <h1 className="to-animate mb-10" style={{ color: '#52d3aa' }}>BBDD</h1>
+                    <h1 className="to-animate mb-10 titles-sections" style={{ color: '#52d3aa' }}>BBDD</h1>
                 </div>
                 <div className="fh5co-block to-animate">
                     <div className="overlay-darker"></div>

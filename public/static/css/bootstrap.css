@@ -1947,15 +1947,24 @@ pre code {
   .container {
     width: 750px;
   }
+  .titles-sections {
+    margin-left: 20px;
+  }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
+  .titles-sections {
+    margin-left: 20px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+  .titles-sections {
+    margin-left: 20px;
   }
 }
 

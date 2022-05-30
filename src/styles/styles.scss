@@ -1,3 +1,24 @@
+:root {
+    --background: white;
+    --text-primary: #4A4A4A;
+    --text-secondary: #4A4A4A;
+    --border: rgba(0, 0, 0, 0.1);
+    --shadow: rgba(163, 174, 184, 0.4);
+}
+
+[data-theme='dark'] {
+    --background: rgb(25, 27, 28);
+    --text-primary: white;
+    --text-secondary: grey;
+    --border: rgba(146, 137, 122, 0.1);
+    --shadow: #1f2425;
+}
+
+.app {
+    color: var(--text-primary);
+    background-color: var(--background);
+}
+
 .social-icons {
     padding-right: 10px;
 }
@@ -9,4 +30,13 @@
 
 #fh5co-home .text-inner a.social-media {
     border: none;
+}
+
+.img-logo {
+    width: 5em;
+}
+
+.switch {
+    margin-top: 14px;
+    padding-top: 3px !important;
 }

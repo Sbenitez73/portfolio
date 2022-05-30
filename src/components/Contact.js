@@ -1,15 +1,36 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2'
 
 export const Contact = () => {
-
+    emailjs.init('user_eM2APZOJW7tBh8tF0JvYZ');
     function sendEmail ( e ) {
         e.preventDefault();
         emailjs.sendForm( 'gmail', 'template_xfj588w', e.target, 'user_eM2APZOJW7tBh8tF0JvYZ' )
             .then(( result ) => {
-                console.log(result.text);
+                Swal.fire({
+                    position: 'top-end',
+                    toast: true,
+                    timer: 3000,
+                    title: 'Received!',
+                    text: 'Your message has been received in the next 24 hours I will reply.',
+                    icon: 'success',
+                    showConfirmButton: false,
+                    showCancelButton: false,
+                    
+                });
             }, ( error ) => {
-                console.log(error.text);
+                Swal.fire({
+                    position: 'top-end',
+                    toast: true,
+                    timer: 4000,
+                    title: 'Error',
+                    text: 'An error occurred while trying to receive your email try again, if it happens again in the contact information is my email',
+                    icon: 'error',
+                    showConfirmButton: false,
+                    showCancelButton: false,
+                    
+                });
             });
             e.target.reset();
 
@@ -24,7 +45,8 @@ export const Contact = () => {
                             <h2 className="to-animate">Get In Touch</h2>
                             <div className="row">
                                 <div className="col-md-8 col-md-offset-2 subtext to-animate">
-                                    <h3>Contact me if you want to hire any of my services.</h3>
+                                    <h3>Contact me if you want to hire any of my services or if you want my resume.</h3>
+                                    
                                 </div>
                             </div>
                         </div>

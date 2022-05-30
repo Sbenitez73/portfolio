@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin-top: 0;
-    background: #fff;
+    background-color: var(--background);
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
